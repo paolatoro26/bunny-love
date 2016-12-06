@@ -1,3 +1,60 @@
 *{
-	font-family: "Baloo Paaji"
+	font-family: "Baloo Paaji";
+	outline: 1px red solid
 }
+body{
+	background: #E3F5FF
+}
+/*-------------------COMUN----------*/
+header span,h1,h4{
+	color: #E56150
+}
+header,.live .container,footer,.bloque{
+	background: #245E82
+}
+.container{
+	width:1200px
+}
+img{
+	width: 100%
+}
+/*-------------------HEADER---------*/
+header a,p{
+	color:white
+}
+header{
+	padding: 10px 0
+}
+/*--------------------HERO----------*/
+.hero .container{
+	background: url(../img/img-1.jpg);
+	background-size: cover
+}
+.titulo{
+	width: 800px;
+	margin: 80px 15%;
+	padding: 30px ;
+	background-color: rgba(36,94,130,.7);
+}
+h1{
+	padding: 30px 0 40px 0;
+	font-size: 60px
+}
+/*-------------------TALES----------*/
+.tales{
+	padding: 20px
+}
+
+.bloque h4{
+	padding: 10px 0 20px 0
+}
+.bloque p{
+	line-height: 2em
+}
+/*--------------------LIVE----------*/
+.live .container{
+	padding: 10px
+}
+/*-------------------MARCO----------*/
+/*-------------------FOOTER---------*/
+
