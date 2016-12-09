@@ -3,7 +3,8 @@
 	
 }
 body{
-	background: #E3F5FF
+	background: #E3F5FF;
+
 }
 /*-------------------COMUN----------*/
 header span,h1,h4{
@@ -36,7 +37,7 @@ header{
 }
 .titulo{
 	width: 800px;
-	margin: 80px 9%;
+	margin: 80px 90px;
 	padding: 30px ;
 	background-color: rgba(12,118,142,.8);
 }
@@ -105,3 +106,14 @@ footer{
 	padding: 40px;
 	border-top: 4px solid #E56150
 }
+
+/*------------MEDIA QUERIES---------*/
+@media screen and (max-width : 1200px) {
+	.container{width: 800px}
+	
+
+	
+
+}
+
+
