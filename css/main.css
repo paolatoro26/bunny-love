@@ -1,6 +1,6 @@
 *{
 	font-family: "Baloo Paaji";
-	outline: 1px red solid
+	
 }
 body{
 	background: #E3F5FF
@@ -10,14 +10,15 @@ header span,h1,h4{
 	color: #E56150
 }
 header,.live .container,footer,.bloque{
-	background: #245E82
+	background: rgb(12,118,142);
 }
 .container{
-	width:1200px
+	width:1000px
 }
 img{
 	width: 100%
 }
+
 /*-------------------HEADER---------*/
 header a,p{
 	color:white
@@ -34,7 +35,7 @@ header{
 	width: 800px;
 	margin: 80px 15%;
 	padding: 30px ;
-	background-color: rgba(36,94,130,.7);
+	background-color: rgba(12,118,142,.8);
 }
 h1{
 	padding: 30px 0 40px 0;
@@ -51,10 +52,44 @@ h1{
 .bloque p{
 	line-height: 2em
 }
+.tales .peque{
+	vertical-align: bottom;
+}
 /*--------------------LIVE----------*/
 .live .container{
+	padding: 25px
+}
+input{
+	border: 26px solid #E0F8F7;
+	border-radius: 5px;
+	width: 100%;
+	padding: 20px;
+	margin-bottom: 8px
+}
+.f1-c1,.f1-c2,.f2-c1,.f2-c2{
+	background: #E0F8F7;
+}
+.live p{
+	color: black;
 	padding: 10px
 }
+.live i{
+	color:rgb(12,118,142);
+	}
+.live li{
+	margin: 30px 30px
+}
+.f1-c1{
+	padding-top: -20px
+}
 /*-------------------MARCO----------*/
+.marco img{
+	width: 150px;
+	margin-top: 20px
+}
 /*-------------------FOOTER---------*/
-
+footer{
+	color: white;
+	padding: 40px;
+	border-top: 4px solid #E56150
+}
