@@ -36,7 +36,7 @@ header{
 	background-size: cover
 }
 .titulo{
-	width: 800px;
+	width: 80%;
 	margin: 80px 90px;
 	padding: 30px ;
 	background-color: rgba(12,118,142,.8);
@@ -96,10 +96,10 @@ iframe{
 
 .col-md-5{padding-left: 7px}
 /*-------------------MARCO----------*/
-.marco img{
-	width: 150px;
-	margin-top: 20px
-}
+
+.marco{background: url(../img/bunny-head.png);
+	background-size:contain;
+	height: 100px}
 /*-------------------FOOTER---------*/
 footer{
 	color: white;
@@ -110,10 +110,16 @@ footer{
 /*------------MEDIA QUERIES---------*/
 @media screen and (max-width : 1200px) {
 	.container{width: 800px}
-	
+	.titulo{margin:10px;padding: 0}
+}
+
+@media screen and (max-width : 768px) {
+	.container{width: 100%}
+	.titulo{margin:10px;margin: 0 40px}
+	header span{
+		background: white	}
+	iframe{margin: -10px 0}
 
 	
 
 }
-
-
